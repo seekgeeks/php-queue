@@ -1,0 +1,23 @@
+{
+  "name": "php-queue",
+  "version": "1.0.0",
+  "description": "Implementing PHP queue",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekgeeks/php-queue.git"
+  },
+  "author": "Dheeraj jha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seekgeeks/php-queue/issues"
+  },
+  "homepage": "https://github.com/seekgeeks/php-queue#readme"
+}
