@@ -1,9 +1,12 @@
 <?php
 // create gearman client
+error_reporting(E_ALL);
+ini_set('display_error',1);
+
  
 $client = new GearmanClient();
 $client->addServer('127.0.0.1');
- 
+
 // config
  
 $numbers = [

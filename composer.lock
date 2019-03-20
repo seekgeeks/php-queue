@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7db48d83a66eb24f194c31b8f8f00ab8",
+    "content-hash": "28731bc2b521033246e5eda81108c2d3",
+    "packages": [
+        {
+            "name": "kicken/gearman-php",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kicken/gearman-php.git",
+                "reference": "6653f2739948f390960cfce8a97084ccfb1df093"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kicken/gearman-php/zipball/6653f2739948f390960cfce8a97084ccfb1df093",
+                "reference": "6653f2739948f390960cfce8a97084ccfb1df093",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kicken\\Gearman\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Keith Maika"
+                }
+            ],
+            "description": "A PHP implementation of the Gearman protocol.",
+            "time": "2018-06-18 06:49:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
